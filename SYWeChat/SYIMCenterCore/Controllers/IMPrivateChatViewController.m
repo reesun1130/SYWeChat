@@ -75,7 +75,7 @@
             dispatch_async(dispatch_get_main_queue(), ^{
                 [self.mainTableView reloadData];
                 [self IMChatTableViewScrollToBottomAnimated:NO];
-                //[self hideLoadingHUD];
+                self.navigationItem.title = self.fromUser.StudentName;
             });
         });
     }
