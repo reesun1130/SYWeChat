@@ -1,0 +1,6 @@
+framework module SYCore {
+  umbrella header "SYCore.h"
+
+  export *
+  module * { export * }
+}

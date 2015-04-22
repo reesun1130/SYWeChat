@@ -1,0 +1,6 @@
+framework module SYIMKit {
+  umbrella header "SYIMKit.h"
+
+  export *
+  module * { export * }
+}
