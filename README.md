@@ -1,4 +1,4 @@
-# SYWeChat
+# SY We Chat Demo
 
 ### Latest
 
